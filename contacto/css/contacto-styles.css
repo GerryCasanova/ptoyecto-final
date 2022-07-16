@@ -1,0 +1,125 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    background-image: url(../crs/wallper.jpg);
+}
+button{
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+}
+header{
+
+    border: solid 10px white;
+    border-radius: 20px;
+}
+a{
+    text-decoration: none;
+}
+i{
+    margin: 1rem;
+    color: white;
+}
+i:hover{
+    color: black;
+}
+.but{
+    font-size: x-large;
+    width: 7rem;
+    height: 2rem;
+    border: solid white;
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 3px rgba(64, 64,64 , .7);
+    margin-left: 2rem;
+}
+.but:hover{
+    box-shadow: none;
+}
+.mes{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center; 
+    height: 35rem;
+    width: 35rem;
+    border: solid 7px white;
+    border-radius: 15px;
+    background-color: rgba(128, 128, 128, .7);
+}
+.info{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;    
+}
+.labe{
+    color: white;
+    font-size: x-large;
+}
+.formu{
+    width: 15rem;
+    height: 2rem;
+    border: solid  4px white;
+    background-color: transparent;
+    border-radius: 10px;
+
+}
+.formul{
+    width: 15rem;
+    height:10rem;
+    border: solid  4px white;
+    background-color: transparent;
+    border-radius: 10px;
+}
+.img-logo{
+    width: 10rem;
+}
+.bar{
+    color: white;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center; 
+    flex-direction: row;
+    background-color: rgba(128, 128, 128, .7);
+}
+.redes{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center; 
+}
+.redes-info{
+    text-align: center;
+    width: 40rem;
+    font-size: xx-large;
+    border: solid 4px white;
+    border-radius: 15px;
+    color: white;
+    background-color: rgba(128, 128, 128, .7);
+}
+.red{
+    font-size: 4rem;
+}
+
+.foter{
+    width: 100%;
+    height: fit-content;
+}
+.continfo{
+    color:white;
+    text-align: center;
+    font-size: xx-small;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+}

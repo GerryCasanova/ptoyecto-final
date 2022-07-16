@@ -1,0 +1,132 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header{
+
+background: rgba(159, 158, 158, 1.0);
+background: -webkit-linear-gradient(left, rgba(159, 158, 158, 1.0), rgba(26, 26, 26, 1.0));
+background: -moz-linear-gradient(left, rgba(159, 158, 158, 1.0), rgba(26, 26, 26, 1.0));
+background: linear-gradient(to right, rgba(159, 158, 158, 1.0), rgba(26, 26, 26, 1.0));
+
+}
+
+.says{
+    font-size: xx-large;
+    color: white;
+}
+.heads{
+    margin-left: 10rem;
+    margin-right: 10rem;
+    display: flex;
+    align-content: space-between;
+    justify-content: space-between;
+    align-items: center;
+}
+.spoty{
+    color: green;
+    font-size: 3rem;
+}
+.img-logo{
+    width: 15rem;
+    height: auto;
+}
+body{
+    background-color: rgb(96,96,96);
+}
+a{
+    text-decoration: none;
+}
+.button{
+    width: 7rem;
+    height: fit-content;
+    border: solid white;
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+    background-color: rgba(90,90,90,0.2);
+}
+
+.fle{
+    font-size: 7rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.portadamg{
+    width: 23rem;
+    height: 23rem;
+    margin-left:2rem ;
+    border-radius: 15px;
+    border: solid black;
+}
+.music-section{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+}
+.singles{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    width: 50rem;
+    height: 25rem;
+    border-radius: 25px;
+    margin-bottom: 2rem;
+    transition: 1s;
+    border: 3px solid black;
+}
+/*.singles:hover{
+    width: 80rem;
+
+}*/
+.oscilaciones{
+    background-color: rgba(247,176,34);
+}
+.electric{
+    background-color:rgba(160,116,235);
+}
+.album{
+    background-color: white;
+}
+.info{
+    width: 30rem;
+    height: 24rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+.portada{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.plataformas{
+    display: none;
+    height: 24rem;
+    width: 30rem;
+    margin:solid white;
+}
+.foter{
+    width: 100%;
+    height: fit-content;
+}
+.continfo{
+    color: black;
+    text-align: center;
+    font-size: xx-small;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+}
